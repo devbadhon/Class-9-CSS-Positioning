@@ -1,0 +1,38 @@
+/*
+We will learn:
+0.Document Flow
+1.Absolute
+2.fixed
+3.Relative
+4.Sticky
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(200, 158, 240);
+    padding: 50px;
+    height: 3000px;
+
+}
+.parent{
+    border: 2px solid black;
+    width: 1230px;
+    height: 550px;
+    background: rgb(0, 162, 255);
+
+}
+.child-1{
+    background-color: rgb(157, 255, 0);
+    width: 100px;
+    height: 100px;
+    position:sticky;
+    top: 0px;
+
+
+}
+.child-2{
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+}
